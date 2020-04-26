@@ -9,6 +9,7 @@
 import SwiftUI
 import CoreLocation
 
+
 struct Landmark: Hashable, Codable, Identifiable {
     var id: Int
     var name: String
@@ -18,6 +19,7 @@ struct Landmark: Hashable, Codable, Identifiable {
     var park: String
     var category: Category
     var isFavorite: Bool
+    var isFeatured: Bool
 
     var locationCoordinate: CLLocationCoordinate2D {
         CLLocationCoordinate2D(

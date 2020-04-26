@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CF7770972455E2E0002D4443 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7770962455E2E0002D4443 /* Home.swift */; };
+		CF7770992455EA85002D4443 /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7770982455EA85002D4443 /* CategoryRow.swift */; };
 		CFA969A3244FE3E1004FEFAB /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA969A2244FE3E1004FEFAB /* Landmark.swift */; };
 		CFA969A5244FE4D6004FEFAB /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA969A4244FE4D6004FEFAB /* Data.swift */; };
 		CFA969C2244FE630004FEFAB /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA969C1244FE630004FEFAB /* LandmarkRow.swift */; };
@@ -47,6 +49,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CF7770962455E2E0002D4443 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		CF7770982455EA85002D4443 /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
 		CFA969A2244FE3E1004FEFAB /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
 		CFA969A4244FE4D6004FEFAB /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		CFA969C1244FE630004FEFAB /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
@@ -125,6 +129,8 @@
 				CFFE6AB82454D9D80007CF8C /* HikeDetail.swift */,
 				CFFE6ABA2454DA140007CF8C /* HikeGraph.swift */,
 				CFFE6ABE2454DA7D0007CF8C /* GraphCapsule.swift */,
+				CF7770962455E2E0002D4443 /* Home.swift */,
+				CF7770982455EA85002D4443 /* CategoryRow.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -277,6 +283,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF7770992455EA85002D4443 /* CategoryRow.swift in Sources */,
 				CFFE6ABF2454DA7D0007CF8C /* GraphCapsule.swift in Sources */,
 				CFFE6AAF2454C5310007CF8C /* HexagonParameters.swift in Sources */,
 				CFFE6ABB2454DA140007CF8C /* HikeGraph.swift in Sources */,
@@ -290,6 +297,7 @@
 				CFA969C4244FF268004FEFAB /* LandmarkList.swift in Sources */,
 				CFFE6AB92454D9D80007CF8C /* HikeDetail.swift in Sources */,
 				CFFE6AB32454D4D30007CF8C /* BadgeSymbol.swift in Sources */,
+				CF7770972455E2E0002D4443 /* Home.swift in Sources */,
 				CFFE6AB52454D6760007CF8C /* RotatedBadgeSymbol.swift in Sources */,
 				CFEA0E91244E7FDE00CBCCD0 /* LandmarkDetail.swift in Sources */,
 				CFFE6AB12454CC350007CF8C /* BadgeBackground.swift in Sources */,
