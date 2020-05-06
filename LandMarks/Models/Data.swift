@@ -12,6 +12,7 @@ import SwiftUI
 import CoreLocation
 
 let landmarkData: [Landmark] = load("landmarkData.json")
+let features = landmarkData.filter { $0.isFeatured }
 let hikeData: [Hike] = load("hikeData.json")
 
 func load<T: Decodable>(_ filename: String) -> T {
@@ -68,5 +69,4 @@ final class ImageStore {
         return images.index(forKey: name)!
     }
 }
-
 

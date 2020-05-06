@@ -10,6 +10,7 @@ import SwiftUI
 import CoreLocation
 
 
+
 struct Landmark: Hashable, Codable, Identifiable {
     var id: Int
     var name: String
@@ -25,6 +26,15 @@ struct Landmark: Hashable, Codable, Identifiable {
         CLLocationCoordinate2D(
             latitude: coordinates.latitude,
             longitude: coordinates.longitude)
+    }
+    
+    var featureImage: Image? {
+        guard isFeatured else { return nil }
+        
+        return Image(
+            ImageStore.loadImage(name: "\(imageName)_feature"),
+            scale: 2,
+            label: Text(name))
     }
 
     enum Category: String, CaseIterable, Codable, Hashable {
