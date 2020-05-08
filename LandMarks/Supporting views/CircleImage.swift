@@ -7,23 +7,20 @@
 //
 
 import SwiftUI
-
 struct CircleImage: View {
     var image: Image
+    var shadowRadius: CGFloat = 10
+
     var body: some View {
         image
-            //.resizable()
-            //.aspectRatio(contentMode: .fit)
             .clipShape(Circle())
-            .overlay(
-                Circle().stroke(Color.white, lineWidth: 4))
-            .shadow(radius: 10)
+            .overlay(Circle().stroke(Color.white, lineWidth: 4))
+            .shadow(radius: shadowRadius)
     }
 }
 
-struct CilcleImage_Previews: PreviewProvider {
+struct CircleImage_Previews: PreviewProvider {
     static var previews: some View {
-        //
-        CircleImage(image: Image("coldplay"))
+        CircleImage(image: Image("turtlerock"))
     }
 }
